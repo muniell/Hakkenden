@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    background-color: #FFFAD2;
+}
+
+header{
+    background-color: #D40651;
+}
+
+h1{
+    text-align: center;
+}
+
+.headerInner a{
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.title{
+    max-width: 800px; 
+    min-width: 400px; 
+    display: block;
+    margin: auto;
+}
+
+.title img{
+     width: 100%;
+}
+
+.hover{
+    text-align: center;
+}
+.hover a{
+    background: skyblue;
+    color: #fff;
+    width:  150px;
+    height: 100px;
+    display:inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 100px;
+    font-size: 24px;
+  }
+.hover a:hover{
+    background: orange ;
+}
+
+.sozai{
+    text-align: center;
+    padding: 50px;
+}
+
+.chara{
+    display: flex;
+}
+
+.name{
+    font-size: 200%;
+}
+
+.explane{
+    font-size: 150%;
+    margin-left: -80px;
+}
+
+.charaButton li{
+    list-style: none;
+    display: inline;
+}
+
+.charaButton img{
+    border-radius: 5px;
+    border: 1px solid black;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.charaButton img:hover{
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.midashi {
+    font-size: larger;
+    margin-left: 10px;
+}
